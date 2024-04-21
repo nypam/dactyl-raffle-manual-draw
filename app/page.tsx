@@ -41,9 +41,11 @@ export default function Home() {
                 </video>
                 </div>
       <div className='absolute w-1/2 left-1/2 top-1/2 text-center -translate-x-1/2'>
-      <h1 className='pb-5'>Pick a random winner from {tickets} remaining tickets</h1>
+      <h1 className='pb-5'>Pick a random winner from 59,144 remaining tickets</h1>
       
-      {winner && <div className='font-[VCHenrietta-Bold] text-2xl p-4 rounded-full bg-black bg-opacity-10' >{winner}</div>}
+      {winner && <div className={`${
+                          loading ? "bg-black bg-opacity-10 text-white" : "bg-white bg-opacity-100 text-[#006D53]"
+                        } font-[VCHenrietta-Bold] text-2xl p-4 rounded-full bg-black bg-opacity-10`}>{winner}</div>}
       <button onClick={pickWinner} disabled={loading} className="bg-[#0DD883] hover:bg-[#006D53] mt-5 text-white font-bold py-2 px-4 rounded-full">
         {loading ? 'Picking...' : 'Pick a Winner'}
       </button>
