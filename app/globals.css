@@ -31,3 +31,70 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: "claynotopia";
+  src: url("../public/fonts/claynotopia/claynotopia-regular.woff2")
+      format("woff2"),
+    url("../public/fonts/claynotopia/claynotopia-regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "VCHenrietta-Bold";
+  src: url("../public/fonts/Henrietta/VCHenrietta-Bold.woff2") format("woff2"),
+    url("../public/fonts/Henrietta/VCHenrietta-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "F37GingerRounded-Regular";
+  src: url("../public/fonts/F37GingerRounded-Regular/F37GingerRounded-Regular.woff2")
+      format("woff2"),
+    url("../public/fonts/F37GingerRounded-Regular/F37GingerRounded-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "F37GingerRounded-Light";
+  src: url("../public/fonts/F37GingerRounded-Light/F37GingerRounded-Light.woff2")
+      format("woff2"),
+    url("../public/fonts/F37GingerRounded-Light/F37GingerRounded-Light.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "F37GingerRounded-LightItalic";
+  src: url("../public/fonts/F37GingerRounded-LightItalic/F37GingerRounded-LightItalic.woff2")
+      format("woff2"),
+    url("../public/fonts/F37GingerRounded-LightItalic/F37GingerRounded-LightItalic.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "F37GingerRounded-Bold";
+  src: url("../public/fonts/F37GingerRounded-Bold/F37GingerRounded-Bold.woff2")
+      format("woff2"),
+    url("../public/fonts/F37GingerRounded-Bold/F37GingerRounded-Bold.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  font-family: "F37GingerRounded-Regular" !important;
+}
